@@ -1,0 +1,13 @@
+{
+  "Description": "A simple Lambda function saying \"Hello World\".",
+  "Resources": {
+    "HelloWorld": {
+      "Type": "AWS::Serverless::Function",
+      "Properties": {
+        "Handler": "de.openaqua.serverless.function.HelloWorld",
+        "Runtime" : "java8",
+        "CodeUri" : "./target/serverless-0.0.1.jar"
+      }
+    }
+  }
+}
