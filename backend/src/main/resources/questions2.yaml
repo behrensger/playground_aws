@@ -1,0 +1,43 @@
+description: Scrum
+questions:
+  Who are members of a Scrum team?:
+    answers:
+      Product Owner: true
+      Scrum Master: true
+      Develment Team: true
+      Stakeholder: false
+      Project Manager: false
+      Team Leader: false
+    description: Only Product Master, Scrum Master and Development Team are members of the Scrum Team
+  Is the Scrum Master a manager?:
+    answers:
+      'true': false
+      'false': true
+    description: No, there are no managers in scrum but the Scrum Master counts as manager role. The scrum manager does not manage the team but the process.
+  Is the Scrum Master a management role?:
+    answers:
+      'true': true
+      'false': false
+    description: No, there are no managers in scrum but the Scrum Master counts as manager role. The scrum manager does not manage the team but the process.
+  Who is the sole owner of the Product Backlog?:
+    answers:
+      Product Owner: true
+      Scrum Team: false
+      Development Team: false
+      Development Organization: false
+      Product Owner and Development Organization: false
+      Project Manager: false
+    description: The product owner can delegate some of his work to other people but is still the owner of the Product Backlog.
+  Who is the sole owner of the Sprint Backlog?:
+    answers:
+      Product Owner: false
+      Scrum Team: false
+      Development Team: true
+      Development Organization: false
+      Product Owner and Development Organization: false
+      Project Manager: false
+  Is Scrum better than 6Sigma?:
+    description: This answer should be easy.  
+    answers:
+      'true': true
+      'false': false
